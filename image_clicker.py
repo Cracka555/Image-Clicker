@@ -1,4 +1,4 @@
-print("made by Cracka |google.com|")
+print("made by Cracka555 (https://github.com/Cracka555/Image-Clicker)")
 import pyautogui
 import time
 import cv2
