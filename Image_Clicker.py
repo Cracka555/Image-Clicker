@@ -6,7 +6,7 @@ import numpy as np
 from PIL import Image
 
 # Configuration
-BARBARIAN_TEMPLATE = 'TestImage.png'  # Path to image
+IMAGE_TEMPLATE = 'TestImage.png'  # Path to image
 CLICK_DELAY = 1       # Seconds between clicks
 SEARCH_INTERVAL = 5   # Seconds between search cycles
 CONFIDENCE = 0.7      # Detection confidence (0.7 = 70%)
@@ -19,7 +19,7 @@ def find_image():
         screen_gray = cv2.cvtColor(screen, cv2.COLOR_BGR2GRAY)
         
         # Load template
-        template = cv2.imread(BARBARIAN_TEMPLATE, 0)
+        template = cv2.imread(IMAGE_TEMPLATE, 0)
         if template is None:
             raise FileNotFoundError("Template image not found")
         
