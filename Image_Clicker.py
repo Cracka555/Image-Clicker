@@ -7,7 +7,7 @@ from PIL import Image
 import keyboard  # For key detection
 
 # Configuration
-IMAGE_TEMPLATE = 'Test_Image.png'  # Path to image
+IMAGE_TEMPLATE = 'Starcas.png'  # Path to image
 CLICK_DELAY = 1       # Seconds between clicks
 SEARCH_INTERVAL = 5   # Seconds between search cycles
 CONFIDENCE = 0.7      # Detection confidence (0.7 = 70%)
